@@ -10,7 +10,7 @@ Disassembly of section .text:
 
 _start:
 			LDR R0, =N			//R0 points to the result location
-   0:	e59f0078 	ldr	r0, [pc, #120]	; 80 <NUMBERS+0x10>
+   0:	e59f0080 	ldr	r0, [pc, #128]	; 88 <NUMBERS+0x18>
 			//ADD R0, R0 ,#4
 			LDR R9, [R0]
    4:	e5909000 	ldr	r9, [r0]
@@ -97,4 +97,6 @@ END:		B END 				//end program
   74:	00000003 	.word	0x00000003
   78:	00000002 	.word	0x00000002
   7c:	00000006 	.word	0x00000006
-  80:	0000006c 	.word	0x0000006c
+  80:	00000001 	.word	0x00000001
+  84:	00000008 	.word	0x00000008
+  88:	0000006c 	.word	0x0000006c

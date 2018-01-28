@@ -51,5 +51,4 @@ END:		B END 				//end program
 			
 N:			.word	6
 			// reversed order array with O(n^2) sort time
-NUMBERS:	.word	4, 3, 2, 6
-			.word 	1, 8 
+NUMBERS:	.word	4, 3, 2, 6, 1, 8
