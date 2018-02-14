@@ -1,4 +1,8 @@
 *.axf
+.axf
 *.axf.objdump
+.axf.objdump
 *.s.o
+.s.o
 *.srec
+.srec

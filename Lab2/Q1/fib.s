@@ -61,7 +61,8 @@ ELSE:
 		// stores the result of fib(n) 		
 		STR R2, [LR]
 		// reset fib(n) loop count
-		LDR R9, [R10,#4] 	// test: r9=2
+		LDR R9, [R10,#4]
+		SUB R9,R9,#1
 		ADD R8, R8, #1
 		B ELSE
 
